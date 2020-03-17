@@ -10,6 +10,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 /**
+ * 策略模式，有共同的抽象行为，具体不同的行为称作为不同的策略，最终可以使用Context上下文获取对应策略。
  * @author liwei
  * @create: 2020/3/17 1:39 下午
  */
