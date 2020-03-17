@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.liwei.paystrategy.mapper.PaymentChannelMapper">
+  <resultMap id="BaseResultMap" type="com.liwei.paystrategy.domain.PaymentChannel">
+    <!--@mbg.generated generated on Tue Mar 17 14:01:42 CST 2020.-->
+    <!--@Table payment_channel-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <id column="channel_id" jdbcType="VARCHAR" property="channelId" />
+    <result column="channel_name" jdbcType="VARCHAR" property="channelName" />
+    <result column="strategy_bean_id" jdbcType="VARCHAR" property="strategyBeanId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Tue Mar 17 14:01:42 CST 2020.-->
+    id, channel_id, channel_name, strategy_bean_id
+  </sql>
+</mapper>
